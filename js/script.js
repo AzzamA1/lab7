@@ -4,5 +4,8 @@ function init(){
 	document.getElementById('textoutput').innerHTML = input;
 	alert('Azzam Abu Hamdan: ' + input.value);
   }
+  
+  var button = document.getElementById('entrybutton');
+  button.addEventListener('click', input);
 
 window.addEventListener('load', init);
