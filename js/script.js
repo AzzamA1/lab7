@@ -6,6 +6,6 @@ function init(){
   }
   
   var button = document.getElementById('entrybutton');
-  button.addEventListener('click', input);
+  button.addEventListener('click', alertMe);
 }
 window.addEventListener('load', init);
