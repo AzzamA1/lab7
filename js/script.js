@@ -7,5 +7,5 @@ function init(){
   
   var button = document.getElementById('entrybutton');
   button.addEventListener('click', input);
-
+}
 window.addEventListener('load', init);
