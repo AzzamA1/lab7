@@ -1,8 +1,8 @@
 function init(){
   function alertMe(){
-    var input = document.getElementById('entryinput');
+    var input = document.getElementById('entryinput').value;
 	document.getElementById('textoutput').innerHTML = input;
-	alert('Azzam Abu Hamdan: ' + input.value);
+	alert('Azzam Abu Hamdan: ' + input);
   }
   
   var button = document.getElementById('entrybutton');
